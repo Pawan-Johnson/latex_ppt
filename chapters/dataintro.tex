@@ -1,0 +1,55 @@
+\begin{frame}{Introduction}
+    \begin{itemize}
+        \item Verify the quality of 2024 data
+        \item Compare with 2023 data and identify any discrepancies
+        \item This presentation focuses on the track variables
+        \item Detailed objectives highlighted in the following TODO List
+        % \item \href{https://indico.cern.ch/event/1476946/?note=304369#18-to-do-list}{Fix This}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Data Description}
+    \begin{itemize}
+        \item 2024 data can be found in the directories
+              \begin{itemize}
+                  \item \textbf{/eos/experiment/faser/phys/2024/p0011}
+                  \item \textbf{/eos/experiment/faser/phys/2024/p0012}
+              \end{itemize}
+        \item 2023 data can be found in the directory
+              \begin{itemize}
+                  \item \textbf{/eos/experiment/faser/phys/2023/p0010}
+              \end{itemize}
+        \item The runlist (luminosities) used are from:
+              \textbf{/afs/cern.ch/user/t/torrence/public/faser/runlist/}
+              \begin{itemize}
+                  \item \href{/afs/cern.ch/user/t/torrence/public/faser/runlist/2024/faser_runlist_2024_stable.csv}{\textbf{../runlist/2024/faser\_runlist\_2024\_stable.csv}}
+                  \item \href{/afs/cern.ch/user/t/torrence/public/faser/runlist/2023/faser_runlist_2023_stable.csv}{\textbf{../runlist/2023/faser\_runlist\_2023\_stable.csv}}
+              \end{itemize}
+        \item Some problematic runs
+              \begin{itemize}
+                  \item \textbf{11214} : (2023) Run with 0 Lumi
+                  \item \textbf{16851}, \textbf{16852} : Directory is empty
+              \end{itemize}
+        \item No cuts have been applied, since we want to look at the DQ
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Overview of Tracking Variables}
+    \begin{itemize}
+        \item Some new tracking variables have been introduced:
+              \begin{itemize}
+                  \item Track\_hitSet
+                  \item Track\_module\_eta0
+                  \item Track\_module\_phi0
+              \end{itemize}
+        \item There are 56 tracking variables in total (excluding the above)
+        \item They can be broadly classified as:
+              \begin{itemize}
+                  \item Track Positions at various modules (24)
+                  \item Track Momentum at various modules (22)
+                  \item Track Parameters (e.g. $\chi^2$, charge, etc.) (10)
+              \end{itemize}
+              % \item 
+    \end{itemize}
+
+\end{frame}

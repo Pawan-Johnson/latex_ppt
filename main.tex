@@ -1,0 +1,51 @@
+\documentclass{beamer}
+\usepackage{amsfonts,amsmath,oldgerm,algorithmic,algorithm}
+\usepackage{caption} % Required for specifying captions to tables and figures
+\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{subfigure, subcaption}
+\usepackage[append]{beamersubframe}
+% \usepackage{appendixify}
+% \usepackage{hyperref}
+
+\captionsetup{font=tiny,labelfont=bf,skip=0pt}
+\usepackage{booktabs}
+\usetheme{CERN}
+% \usetheme{Boadilla}
+
+% \beamertemplategridbackground[1cm]
+\setbeamersize
+{
+    text margin left=1cm,
+    text margin right=1cm
+}
+
+% Directory for plots
+\newcommand{\plots}{./plots}
+% \newcommand{\chi2}{\chi^2}
+\title{DQ Checks of 2024 Data}
+\subtitle{Track Variables}
+\author{Pawan Johnson}
+\institute{University of Liverpool}
+\date{\today}
+
+
+\begin{document}
+
+\begingroup
+\setbeamertemplate{footline}{}
+\begin{frame}
+    \maketitle
+\end{frame}
+\endgroup
+
+\input{chapters/dataintro.tex}
+\input{chapters/chapter1.tex}
+\input{chapters/chapter3.tex}
+\input{chapters/chapter2.tex}
+\input{chapters/chapter4.tex}
+
+\appendix
+\appendsubframes
+
+\end{document}

@@ -1,0 +1,216 @@
+\bsfrestore{0}{0}{0}{8}
+\begin{frame}{Distribution of Track in Station [SKIP]}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \begin{tikzpicture}
+                \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_InStation0.pdf}};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_InStation2.pdf}};
+            \end{tikzpicture}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \begin{tikzpicture}
+                \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_InStation1.pdf}};
+            \end{tikzpicture}
+            \begin{tikzpicture}
+                \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_InStation3.pdf}};
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+    \scriptsize{There are always 0 tracks in Station0. Possibly an issue in NTupleDumper. Haven't located this yet.}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{9}
+\begin{frame}{Track\_nLayers [SKIP]}
+    \begin{figure}
+        \begin{tikzpicture}
+            \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_nLayers.pdf}};
+        \end{tikzpicture}
+        \caption{Distribution of Track\_nLayers}
+    \end{figure}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{13}
+\begin{frame}{Track Positions at Veto Station 1 [SKIP]}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_X_atVetoStation1.pdf}
+                \caption{Track Position x at Veto Station 1}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_Y_atVetoStation1.pdf}
+                \caption{Track Position y at Veto Station 1}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{14}
+\begin{frame}{Track Positions at Veto Station 2 [SKIP]}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_X_atVetoStation2.pdf}
+                \caption{Track Position x at Veto Station 2}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_Y_atVetoStation2.pdf}
+                \caption{Track Position y at Veto Station 2}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{15}
+\begin{frame}{Track Positions at Trigger [SKIP]}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_X_atTrig.pdf}
+                \caption{Track Position x at Trigger/Timing Station}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_Y_atTrig.pdf}
+                \caption{Track Position y at Trigger/Timing Station}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{18}
+\begin{frame}{Track Positions at Preshower 1 [SKIP]}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_X_atPreshower1.pdf}
+                \caption{Track Position x at Preshower 1}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_Y_atPreshower1.pdf}
+                \caption{Track Position y at Preshower 1}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{19}
+\begin{frame}{Track Positions at Preshower 2 [SKIP]}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_X_atPreshower2.pdf}
+                \caption{Track Position x at Preshower 2}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_Y_atPreshower2.pdf}
+                \caption{Track Position y at Preshower 2}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{24}
+\begin{frame}{Track Momenta at VetoStation 1 [SKIP]}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaX_atVetoStation1.pdf}
+\caption{Track ThetaX at atVetoStation 1}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaY_atVetoStation1.pdf}
+\caption{Track ThetaY at VetoStation 1}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{25}
+\begin{frame}{Track Momenta at VetoStation 2 [SKIP]}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaX_atVetoStation2.pdf}
+\caption{Track ThetaX at VetoStation 2}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaY_atVetoStation2.pdf}
+\caption{Track ThetaY at VetoStation 1}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{26}
+\begin{frame}{Track Momenta at Trigger [SKIP]}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaX_atTrig.pdf}
+\caption{Track ThetaX at Trigger}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaY_atTrig.pdf}
+\caption{Track ThetaY at Trigger}
+\end{figure}
+\end{column}
+\end{columns}
+What changed? Why does the ratio plot show such change?
+\end{frame}
+
+\bsfrestore{0}{0}{0}{29}
+\begin{frame}{Track Momenta at Preshower 1 [SKIP]}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaX_atPreshower1.pdf}
+\caption{Track ThetaX at Preshower 1}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaY_atPreshower1.pdf}
+\caption{Track ThetaY at Preshower 1}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{30}
+\begin{frame}{Track Momenta at Preshower 2 [SKIP]}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaX_atPreshower2.pdf}
+\caption{Track ThetaX at Preshower 2}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaY_atPreshower2.pdf}
+\caption{Track ThetaY at Preshower 2}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\bsfrestorepart{0}{30}
+\endinput
