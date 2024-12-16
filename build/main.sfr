@@ -140,7 +140,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{25}
-\begin{frame}{Track Momenta at VetoStation 2 [SKIP]}
+\begin{frame}{Track Angles at VetoStation 2 [SKIP]}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -158,7 +158,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{26}
-\begin{frame}{Track Momenta at Trigger [SKIP]}
+\begin{frame}{Track Angles at Trigger [SKIP]}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -176,7 +176,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{29}
-\begin{frame}{Track Momenta at Preshower 1 [SKIP]}
+\begin{frame}{Track Angles at Preshower 1 [SKIP]}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -194,7 +194,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{30}
-\begin{frame}{Track Momenta at Preshower 2 [SKIP]}
+\begin{frame}{Track Angles at Preshower 2 [SKIP]}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
