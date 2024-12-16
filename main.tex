@@ -20,6 +20,17 @@
     text margin right=1cm
 }
 
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=false,rounded=false]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
 % Directory for plots
 \newcommand{\plots}{./plots}
 % \newcommand{\chi2}{\chi^2}
@@ -45,6 +56,8 @@
 \input{chapters/chapter2.tex}
 \input{chapters/chapter4.tex}
 
+
+\section{Backup}
 \appendix
 \appendsubframes
 
