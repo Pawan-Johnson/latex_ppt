@@ -1,9 +1,0 @@
-# Fdb version 4
-["pdflatex"] 0 "/mnt/0A92565C92564BF7/Projects/PhD/GeneralMeetingTrackingVariablesPPT/latex_ppt/main.tex" "build/main.pdf" "main" 0 -1
-  "/mnt/0A92565C92564BF7/Projects/PhD/GeneralMeetingTrackingVariablesPPT/latex_ppt/main.tex" 0 -1 0 ""
-  "build/main.aux" 0 -1 0 "pdflatex"
-  (generated)
-  "build/main.aux"
-  "build/main.log"
-  "build/main.pdf"
-  (rewritten before read)
