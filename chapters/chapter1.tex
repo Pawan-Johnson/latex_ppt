@@ -12,18 +12,17 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Distribution of Number of Tracks}
+\begin{frame}{Distribution of longTracks}
     \begin{columns}
-        \begin{column}{0.45\textwidth}
+        \begin{column}{0.5\textwidth}
             \begin{itemize}
                 \item Overall a higher number of tracks in 2024
                 \item Partially can be due to much higher muon rate in 2024
                 \item See this talk to see the difference in backgrounds
-                      \href{https://indico.cern.ch/event/1350790/contributions/5686387/attachments/2836819/4957405/Introduction.pdf}{12
-                          April General Meeting}
+                      \href{https://indico.cern.ch/event/1350790/contributions/5686387/attachments/2836819/4957405/Introduction.pdf}{[12 April General Meeting]}
             \end{itemize}
         \end{column}
-        \begin{column}{0.8\textwidth}
+        \begin{column}{0.75\textwidth}
             \begin{figure}
                 \includegraphics[width=\linewidth] {\plots/longTracks.pdf}
                 \caption{Distribution of Number of Tracks}
@@ -37,7 +36,10 @@
         \begin{column}{0.45\textwidth}
             \begin{itemize}
                 \item We have a higher percentage of anti-muons
-                \item Consistent with earlier observation of ``Much larger population of very high energy positive muons''  \href{https://indico.cern.ch/event/1407468/contributions/5915392/attachments/2851428/4985973/2024_conversions.pdf}{[see Talk]}    
+                \item Consistent with earlier observation of ``Much larger population of very high
+                      energy positive muons''
+                      \href{https://indico.cern.ch/event/1407468/contributions/5915392/attachments/2851428/4985973/2024_conversions.pdf}{[see
+                                  Talk]}
             \end{itemize}
         \end{column}
         \begin{column}{0.8\textwidth}
@@ -65,7 +67,7 @@
                 \caption{Distribution of Track $\chi^2$}
                 % \end{subfigure}
             \end{figure}
-            \vspace{-0.7cm}
+            \vspace{-0.8cm}
             \begin{figure}
                 \includegraphics[width=0.6\linewidth] {\plots/Track_Chi2perDoF.pdf}
                 \caption{Distribution of Track $\chi^2$ per DoF}
@@ -74,7 +76,7 @@
     \end{columns}
 \end{frame}
 
-\begin{subframe}{Distribution of Track in Station [SKIP]}
+\begin{subframe}{Distribution of Track in Station}
     \begin{columns}
         \begin{column}{0.5\linewidth}
             \begin{tikzpicture}
@@ -96,7 +98,7 @@
     \scriptsize{There are always 0 tracks in Station0. Possibly an issue in NTupleDumper. Haven't located this yet.}
 \end{subframe}
 
-\begin{subframe}{Track\_nLayers [SKIP]}
+\begin{subframe}{Track\_nLayers}
     \begin{figure}
         \begin{tikzpicture}
             \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_nLayers.pdf}};
@@ -105,11 +107,21 @@
     \end{figure}
 \end{subframe}
 
-\begin{frame}{Track Propagation Error [SKIP]}
-    \begin{figure}
-        \begin{tikzpicture}
-            \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_PropagationError.pdf}};
-        \end{tikzpicture}
-        \caption{Distribution of Track Propagation Error}
-    \end{figure}
+\begin{frame}{Track Propagation Error}
+    \begin{columns}
+        \begin{column}{0.3 \linewidth}
+            \begin{itemize}
+                \item Much higher Track Propagation Error in 2024 !
+                \item How does this affect the track reconstruction?
+            \end{itemize}
+        \end{column}
+    \begin{column}{0.8 \linewidth}
+        \begin{figure}
+            \begin{tikzpicture}
+                \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_PropagationError.pdf}};
+            \end{tikzpicture}
+            \caption{Distribution of Track Propagation Error}
+        \end{figure}
+    \end{column}
+    \end{columns}
 \end{frame}

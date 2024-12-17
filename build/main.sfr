@@ -1,5 +1,5 @@
 \bsfrestore{0}{0}{0}{8}
-\begin{frame}{Distribution of Track in Station [SKIP]}
+\begin{frame}{Distribution of Track in Station}
     \begin{columns}
         \begin{column}{0.5\linewidth}
             \begin{tikzpicture}
@@ -22,7 +22,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{9}
-\begin{frame}{Track\_nLayers [SKIP]}
+\begin{frame}{Track\_nLayers}
     \begin{figure}
         \begin{tikzpicture}
             \draw (0,0) node[inner sep=0]{\includegraphics[width=\textwidth] {\plots/Track_nLayers.pdf}};
@@ -32,7 +32,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{13}
-\begin{frame}{Track Positions at Veto Station 1 [SKIP]}
+\begin{frame}{Track Positions at Veto Station 1 }
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{figure}
@@ -50,7 +50,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{14}
-\begin{frame}{Track Positions at Veto Station 2 [SKIP]}
+\begin{frame}{Track Positions at Veto Station 2 }
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{figure}
@@ -68,7 +68,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{15}
-\begin{frame}{Track Positions at Trigger [SKIP]}
+\begin{frame}{Track Positions at Trigger }
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{figure}
@@ -86,7 +86,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{18}
-\begin{frame}{Track Positions at Preshower 1 [SKIP]}
+\begin{frame}{Track Positions at Preshower 1 }
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{figure}
@@ -104,7 +104,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{19}
-\begin{frame}{Track Positions at Preshower 2 [SKIP]}
+\begin{frame}{Track Positions at Preshower 2 }
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{figure}
@@ -121,8 +121,26 @@
     \end{columns}
 \end{frame}
 
+\bsfrestore{0}{0}{0}{21}
+\begin{frame}{Track Positions at Max Radius}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_X_atMaxRadius.pdf}
+                \caption{}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth] {\plots/Track_Y_atMaxRadius.pdf}
+                \caption{}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
 \bsfrestore{0}{0}{0}{24}
-\begin{frame}{Track Momenta at VetoStation 1 [SKIP]}
+\begin{frame}{Track Angles at VetoStation 1 }
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -140,7 +158,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{25}
-\begin{frame}{Track Angles at VetoStation 2 [SKIP]}
+\begin{frame}{Track Angles at VetoStation 2 }
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -158,7 +176,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{26}
-\begin{frame}{Track Angles at Trigger [SKIP]}
+\begin{frame}{Track Angles at Trigger }
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -176,7 +194,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{29}
-\begin{frame}{Track Angles at Preshower 1 [SKIP]}
+\begin{frame}{Track Angles at Preshower 1 }
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -194,7 +212,7 @@
 \end{frame}
 
 \bsfrestore{0}{0}{0}{30}
-\begin{frame}{Track Angles at Preshower 2 [SKIP]}
+\begin{frame}{Track Angles at Preshower 2 }
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{figure}
@@ -211,6 +229,24 @@
 \end{columns}
 \end{frame}
 
-\bsfrestoresection{0}{32}
-\bsfrestorepart{0}{33}
+\bsfrestore{0}{0}{0}{31}
+\begin{frame}{Track Angles at Calo}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaX_atCalo.pdf}
+\caption{Track ThetaX at Calo}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\linewidth] {\plots/Track_ThetaY_atCalo.pdf}
+\caption{Track ThetaY at Calo}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\bsfrestoresection{0}{30}
+\bsfrestorepart{0}{31}
 \endinput
